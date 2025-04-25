@@ -7,10 +7,12 @@ import img2 from "/images/2 (1).jpg";
 
 const Sec5 = () => {
   return (
-    <div className="sec-5 w-full mt-50 flex items-center  justify-center">
+    <div className="sec-5 w-full  flex items-center  justify-center">
       <div className="parent lg:w-350 w-full lg:h-[120vh] justify-center items-center h-fit px-9 flex flex-col">
         <div className="flex lg:justify-between flex-col lg:flex-row w-full  lg:px-15 header pb-20">
-          <h1 className="lg:text-4xl text-3xl font-semibold">Popular Publications:</h1>
+          <h1 className="lg:text-4xl text-3xl font-semibold">
+            Popular Publications:
+          </h1>
           <p className="flex text-xl pt-8 lg:pt-0 gap-4">
             VIEW ALL
             <BsFillArrowRightCircleFill className=" lg:text-3xl text-4xl" />

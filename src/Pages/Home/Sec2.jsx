@@ -1,7 +1,7 @@
 /** @format */
 
 import React, { useState } from "react";
-import {CardData} from "./CardData";
+import { CardData } from "./CardData";
 import { motion } from "framer-motion";
 import img1 from "/images/2 (2).jpg";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
@@ -11,35 +11,31 @@ const sec2 = () => {
   return (
     <div className="w-full lg:h-[120vh] h-[260vh] bg-black flex flex-col justify-center relative items-center">
       <div className="h-[0.5px] w-75 bg-[#FFFFFF66] hidden lg:flex absolute top-35 right-0 "></div>
-      <div
-        className=" lg:w-[75vw] w-75  text-white  flex flex-col gap-15 absolute bottom-0"
-       >
-        <motion.p className="lg:w-full w-80  text-[#FFFFFF66] font-light  lg:text-end lg:pr-40"
-        
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration:0.5}}>
+      <div className=" lg:w-[75vw] w-75  text-white  flex flex-col gap-15 absolute bottom-0">
+        <motion.p
+          className="lg:w-full w-80  text-[#FFFFFF66] font-light  lg:text-end lg:pr-40"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}>
           Professional focused on helping your brand{" "}
           <span className="block text-center  lg:text-end">
             {" "}
             grow and move forward
           </span>
         </motion.p>
-        <motion.div className="flex flex-col justify-center items-center gap-5"
-        
-        initial={{ opacity: 0, y:   50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration:0.5}}>
+        <motion.div
+          className="flex flex-col justify-center items-center gap-5"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}>
           <div className="flex gap-6  items-center">
-
             <div className="overflow-hidden h-17 w-50 rounded-[100px] hidden lg:flex ">
-
-            <img
-              src={img1}
-              alt=""
-              className="h-17 hover:scale-105 duration-200 w-50 rounded-[100px] hidden lg:flex  object-cover object-top "
+              <img
+                src={img1}
+                alt=""
+                className="h-17 hover:scale-105 duration-200 w-50 rounded-[100px] hidden lg:flex  object-cover object-top "
               />
-              </div>
+            </div>
 
             <h1 className=" lg:text-8xl text-4xl">
               Unique{" "}
@@ -76,7 +72,7 @@ const sec2 = () => {
               <h1 key={idx} className="   font-semibold">
                 {item.title}
               </h1>
-              <p className=" lg:opacity-0 group-hover:opacity-100  px-1 lg:px-0  transition-all ease-in-out  duration-400 ">
+              <p className=" lg:opacity-0 group-hover:opacity-100  px-1 lg:px-0   duration-400 ">
                 our creative agency is a team of Professionals focused on
                 helping your brand grow
               </p>

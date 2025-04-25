@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 
 const Sec4 = () => {
   return (
-    <div className="lg:h-[140vh] h-[190vh] w-full  justify-center items-center flex flex-col  mt-20 bg-gray-100 relative">
+    <div className="lg:h-[140vh] h-[190vh] w-full  justify-center items-center flex flex-col   bg-gray-100 relative">
       <div className="h-[1px] w-85 bg-gray-400 hidden lg:flex absolute top-40    right-0 ">
         {" "}
       </div>
