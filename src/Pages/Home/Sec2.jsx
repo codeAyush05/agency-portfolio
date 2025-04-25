@@ -30,12 +30,16 @@ const sec2 = () => {
         initial={{ opacity: 0, y:   50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration:0.5}}>
-          <div className="flex gap-6 items-center">
+          <div className="flex gap-6  items-center">
+
+            <div className="overflow-hidden h-17 w-50 rounded-[100px] hidden lg:flex ">
+
             <img
               src={img1}
               alt=""
-              className="h-17 w-50 rounded-[100px] hidden lg:flex  object-cover object-top "
-            />
+              className="h-17 hover:scale-105 duration-200 w-50 rounded-[100px] hidden lg:flex  object-cover object-top "
+              />
+              </div>
 
             <h1 className=" lg:text-8xl text-4xl">
               Unique{" "}
@@ -50,7 +54,7 @@ const sec2 = () => {
                 Buisiness.
               </span>{" "}
             </h1>
-            <button className=" flex bg-[#ff9800] rounded-4xl justify-center text-black  items-center gap-8 lg:w-[200px] w-50 h-16  lg:py-4">
+            <button className=" cursor-pointer flex bg-[#ff9800] rounded-4xl justify-center text-black  items-center gap-8 lg:w-[200px] w-50 h-16  lg:py-4">
               WHAT WE DO{" "}
               <BsFillArrowRightCircleFill className=" lg:text-3xl text-4xl" />
             </button>
@@ -61,7 +65,7 @@ const sec2 = () => {
           {CardData.map((item, idx) => (
             <div
               key={idx}
-              className=" group relative  card lg:w-[18vw] flex flex-col gap-10 justify-center pl-8 border-[0.5px] border-[#2a292980] h-[45vh] bg-transparent"
+              className=" group relative cursor-pointer  card lg:w-[18vw] flex flex-col gap-10 justify-center pl-8 border-[0.5px] border-[#2a292980] h-[45vh] bg-transparent"
               onMouseEnter={() => setIsHovered(idx)}
               onMouseLeave={() => setIsHovered(null)}>
               <motion.div

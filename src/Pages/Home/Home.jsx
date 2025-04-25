@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Hero } from "./Hero";
-import { Nav } from "./Nav";
+// import { Nav } from "./Nav";
 import Sec1 from "./Sec1";
 import Sec2 from "./Sec2";
 import Sec3 from "./Sec3";
@@ -13,7 +13,7 @@ import Footer from "./Footer";
 export const Home = () => {
   return (
     <div>
-      <Nav />
+      {/* <Nav /> */}
       <Hero />
       <Sec1 />
       <Sec2 />

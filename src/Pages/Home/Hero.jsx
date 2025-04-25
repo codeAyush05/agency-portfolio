@@ -45,7 +45,7 @@ export const Hero = () => {
               duration: 0.9,
               ease: [0.16, 1, 0.3, 1], // Custom bezier curve
             }}
-            className=" flex bg-[#ff9800] rounded-4xl justify-center  items-center gap-8 lg:w-[200px] w-50 h-16  lg:py-4">
+            className=" cursor-pointer flex bg-[#ff9800] rounded-4xl justify-center  items-center gap-8 lg:w-[200px] w-50 h-16  lg:py-4">
             WHAT WE DO{" "}
             <BsFillArrowRightCircleFill className=" lg:text-3xl text-4xl" />
           </motion.button>
@@ -57,11 +57,11 @@ export const Hero = () => {
               duration: 0.9,
               ease: [0.16, 1, 0.3, 1], // Custom bezier curve
             }}
-            className=" flex text-white rounded-4xl justify-center  items-center gap-8 lg:w-[200px] w-40 h-16  lg:py-4">
+            className=" cursor-pointer flex text-white rounded-4xl justify-center  items-center gap-8 lg:w-[200px] w-40 h-16  lg:py-4">
             WHAT WE DO <BsFillArrowRightCircleFill className="text-3xl " />
           </motion.button>
 
-          <div className="rounded-full  bg-[#ff9800] lg:w-15 lg:h-15  bottom-30 hidden lg:flex lg:right-70  absolute justify-center items-center ">
+          <div className="rounded-full cursor-pointer  bg-[#ff9800] lg:w-15 lg:h-15  bottom-30 hidden lg:flex lg:right-70  absolute justify-center items-center ">
             <BsArrowDownCircleFill className=" lg:text-4xl  " />
           </div>
         </div>

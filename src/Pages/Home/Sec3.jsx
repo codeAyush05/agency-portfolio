@@ -14,8 +14,8 @@ import img4 from "/images/4.jpg";
 const Sec3 = () => {
   const [isHovered, setIsHovered] = useState(null);
   return (
-    <div className="w-full flex lg:flex-row flex-col ">
-      <div className="text-area  lg:w-[50%] lg:h-[140vh] h-[100vh] flex justify-center pl-8  flex-col lg:pl-60 gap-y-15  lg:gap-y-20">
+    <div className="w-full flex lg:flex-row  flex-col ">
+      <div className="text-area  lg:w-[50%] lg:h-[140vh] h-[100vh] flex justify-center pl-8  flex-col lg:pl-100 gap-y-15  lg:gap-y-20">
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -42,7 +42,7 @@ const Sec3 = () => {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className=" flex bg-[#ff9800] rounded-4xl justify-center  items-center gap-8 lg:w-[250px] w-50 h-16  lg:py-9">
+          className=" cursor-pointer flex bg-[#ff9800] rounded-4xl justify-center  items-center gap-8 lg:w-[200px] w-50 h-16  lg:py-9">
           Read More
           <BsFillArrowRightCircleFill className=" lg:text-3xl text-4xl" />
         </motion.button>
@@ -63,8 +63,8 @@ const Sec3 = () => {
             onMouseEnter={() => setIsHovered(1)}
             onMouseLeave={() => setIsHovered(0)}
             whileHover={{ scale: 0.97, z: 0.5 }}
-            className="lg:h-90 lg:w-60 h-100 w-80 bg-cover relative   group bg-center  bg-red-900 "
-            style={{ backgroundImage: `url(${img11})`, }}>
+            className="lg:h-90 lg:w-60 cursor-pointer h-100 w-80 bg-cover relative   group bg-center  bg-red-900 "
+            style={{ backgroundImage: `url(${img11})` }}>
             <div className="w-full text-white gap-y-4   hover:bg-black opacity-70   h-full hidden group-hover:flex flex-col justify-end items-center pb-15">
               <motion.div
                 className=" absolute bottom-0 w-full left-0 h-1  bg-[#ff9800]"
@@ -84,7 +84,7 @@ const Sec3 = () => {
             onMouseEnter={() => setIsHovered(1)}
             onMouseLeave={() => setIsHovered(0)}
             whileHover={{ scale: 0.97, z: 0.5 }}
-            className="lg:h-90 lg:w-60 h-100 w-80 bg-cover relative group bg-center bg-red-900 "
+            className="lg:h-90 lg:w-60 cursor-pointer h-100 w-80 bg-cover relative group bg-center bg-red-900 "
             style={{ backgroundImage: `url(${img2})` }}>
             <div className="w-full text-white gap-y-4   hover:bg-black opacity-70   h-full hidden group-hover:flex flex-col justify-end items-center pb-15">
               <motion.div
@@ -111,7 +111,7 @@ const Sec3 = () => {
             onMouseEnter={() => setIsHovered(1)}
             onMouseLeave={() => setIsHovered(0)}
             whileHover={{ scale: 0.97, z: 0.1 }}
-            className="lg:h-90 lg:w-60 h-100 w-80 bg-cover  relative group bg-center bg-red-900 "
+            className="lg:h-90 lg:w-60 cursor-pointer h-100  w-80 bg-cover  relative group bg-center bg-red-900 "
             style={{ backgroundImage: `url(${img3})` }}>
             <div className="w-full text-white gap-y-4   hover:bg-black opacity-70   h-full hidden group-hover:flex flex-col justify-end items-center pb-15">
               <motion.div
@@ -132,7 +132,7 @@ const Sec3 = () => {
             onMouseEnter={() => setIsHovered(1)}
             onMouseLeave={() => setIsHovered(0)}
             whileHover={{ scale: 0.97, z: 0.5 }}
-            className="lg:h-90 lg:w-60 h-100 w-80 bg-cover   relative group bg-red-900 "
+            className="lg:h-90 lg:w-60 cursor-pointer h-100 w-80 bg-cover   relative group bg-red-900 "
             style={{ backgroundImage: `url(${img4})` }}>
             <div className="w-full text-white gap-y-4   hover:bg-black opacity-70   h-full hidden group-hover:flex flex-col justify-end items-center pb-15">
               <motion.div
