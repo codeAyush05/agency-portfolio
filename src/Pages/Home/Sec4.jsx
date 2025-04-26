@@ -1,7 +1,13 @@
 /** @format */
 
 import React from "react";
-import img1 from "/images/4.jpg";
+import img1 from "/images/9.jpg";
+import img2 from "/images/2 (3).jpg";
+import img3 from "/images/3 (1).jpg";
+import img4 from "/images/4.jpg";
+import img5 from "/images/5.jpg";
+import img6 from "/images/6.jpg";
+import img7 from "/images/7.jpg";
 import quote from "/images/qu.svg";
 import a from "/images/1.svg";
 import b from "/images/2.svg";
@@ -12,7 +18,7 @@ import { motion } from "framer-motion";
 
 const Sec4 = () => {
   return (
-    <div className="lg:h-[140vh] h-[190vh] w-full  justify-center items-center flex flex-col   bg-gray-100 relative">
+    <div className="lg:h-[140vh] h-[240vh] mb-20 mt-20 lg:mt-0 w-full  justify-center items-center flex flex-col    bg-gray-100 relative">
       <div className="h-[1px] w-85 bg-gray-400 hidden lg:flex absolute top-40    right-0 ">
         {" "}
       </div>
@@ -55,32 +61,32 @@ const Sec4 = () => {
           </div>
           <div className="bg-[#ff9800] w-22 h-22 mt-9 rounded-full flex items-center justify-center">
             <div className=" h-20 w-20 rounded-full border-5  border-white overflow-hidden">
-              <img src={img1} alt="" className="h-20 w-20" />
+              <img src={img2} alt="" className="h-20 w-20" />
             </div>
           </div>
           <div className="bg-[#ff9800]  w-22 h-22 rounded-full flex items-center justify-center">
             <div className=" h-20 w-20 rounded-full border-5  border-white overflow-hidden">
-              <img src={img1} alt="" className="h-20 w-20" />
+              <img src={img3} alt="" className="h-20 w-20" />
             </div>
           </div>
           <div className="bg-[#ff9800] w-22 h-22 mt-9 rounded-full flex items-center justify-center">
             <div className=" h-20 w-20 rounded-full border-5  border-white overflow-hidden">
-              <img src={img1} alt="" className="h-20 w-20" />
+              <img src={img4} alt="" className="h-20 w-20" />
             </div>
           </div>
           <div className="bg-[#ff9800]  w-22 h-22 rounded-full flex items-center justify-center">
             <div className=" h-20 w-20 rounded-full border-5  border-white overflow-hidden">
-              <img src={img1} alt="" className="h-20 w-20" />
+              <img src={img5} alt="" className="h-20 w-20" />
             </div>
           </div>
           <div className="bg-[#ff9800] w-22 h-22 mt-9 rounded-full flex items-center justify-center">
             <div className=" h-20 w-20 rounded-full border-5  border-white overflow-hidden">
-              <img src={img1} alt="" className="h-20 w-20" />
+              <img src={img6} alt="" className="h-20 w-20" />
             </div>
           </div>
           <div className="bg-[#ff9800]  w-22 h-22 rounded-full flex items-center justify-center">
             <div className=" h-20 w-20 rounded-full border-5  border-white overflow-hidden">
-              <img src={img1} alt="" className="h-20 w-20" />
+              <img src={img7} alt="" className="h-20 w-20" />
             </div>
           </div>
         </motion.div>

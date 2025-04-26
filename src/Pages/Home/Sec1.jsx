@@ -7,9 +7,9 @@ import { motion } from "framer-motion";
 
 const Sec1 = () => {
   return (
-    <div className="w-full flex justify-center items-center lg:h-[100vh]">
-      <div className=" lg:w-[60vw] lg:items-center lg:h-fit lg:justify-between h-[190vh] lg:flex lg:flex-row flex-col lg:pt-10 ">
-        <div className="text-section  lg:pl-0 px-5  pt-10 pb-10 lg:pb-0 lg:pt-0 flex flex-col justify-center     lg:w-[50%] w-full h-fit   gap-15  ">
+    <div className="w-full flex justify-center items-center lg:mb-0 mb-20  lg:h-[110vh]">
+      <div className=" lg:w-[70vw] items-center   lg:justify-between h-[19  0vh]  flex lg:flex-row flex-col lg:pt-10 ">
+        <div className="text-section  lg:pl-0 px-5  pt-10  lg:pb-0 lg:pt-0 flex flex-col justify-center     lg:w-[50%] w-full h-fit   gap-15  ">
           <motion.h1
             className=" lg:text-6xl text-4xl lg:w-full w-full font-semibold text-gray-900"
             initial={{ opacity: 0, y: 50 }}
@@ -60,7 +60,7 @@ const Sec1 = () => {
           </div>
         </div>
 
-        <div className="image-section lg:w-[50%] flex justify-center   w-full items-center">
+        <div className="image-section pt-30 lg:pt-0 lg:w-[50%] flex justify-center   w-full items-center">
           <motion.img
             src={a}
             alt=""

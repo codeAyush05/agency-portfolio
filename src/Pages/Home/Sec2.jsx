@@ -9,11 +9,11 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 const sec2 = () => {
   const [isHovered, setIsHovered] = useState(null);
   return (
-    <div className="w-full lg:h-[120vh] h-[260vh] bg-black flex flex-col justify-center relative items-center">
-      <div className="h-[0.5px] w-75 bg-[#FFFFFF66] hidden lg:flex absolute top-35 right-0 "></div>
-      <div className=" lg:w-[75vw] w-75  text-white  flex flex-col gap-15 absolute bottom-0">
+    <div className="w-full lg:h-[105vh] h-[250vh] bg-black flex flex-col justify-center relative items-center">
+      <div className="h-[0.5px] w-80 bg-[#FFFFFF66] hidden lg:flex absolute top-40 right-0 "></div>
+      <div className=" lg:w-[75vw] w-75   text-white  flex flex-col gap-15 absolute bottom-0">
         <motion.p
-          className="lg:w-full w-80  text-[#FFFFFF66] font-light  lg:text-end lg:pr-40"
+          className="w-full text-sm  text-center text-[#FFFFFF66] font-light  lg:text-end lg:pr-40"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}>
@@ -44,7 +44,7 @@ const sec2 = () => {
           </div>
 
           <div className="flex gap-6 items-center lg:flex-row flex-col">
-            <h1 className="lg:text-8xl text-4xl lg:pb-0 pb-10">
+            <h1 className="lg:text-8xl  text-3xl lg:pb-0 pb-10">
               For your{" "}
               <span className="font-extralight text-[#FFFFFF66]">
                 Buisiness.
