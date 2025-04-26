@@ -14,7 +14,7 @@ import img4 from "/images/4.jpg";
 const Sec3 = () => {
   const [isHovered, setIsHovered] = useState(null);
   return (
-    <div className="w-full flex justify-center lg:h-[120vh]  lg:mb-0    h-[350vh] items-center ">
+    <div className="w-full flex justify-center lg:h-[120vh]  lg:mb-0    h-[345vh] items-center ">
       <div className=" lg:w-[65vw] w-full lg:h-[100vh] h-fit lg:pb-0 pb-20 flex lg:flex-row  flex-col ">
         <div className="text-area  lg:w-[50%]  flex justify-center pl-8 mt-40 lg:mt-0 lg:pt-0 lg:pb-0 pb-20 flex-col gap-y-15   lg:gap-y-15 ">
           <motion.h1
