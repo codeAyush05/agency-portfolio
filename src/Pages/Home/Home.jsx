@@ -14,6 +14,7 @@ export const Home = () => {
   return (
     <div>
       {/* <Nav /> */}
+      {/* <Nav/> */}
       <Hero />
       <Sec1 />
       <Sec2 />

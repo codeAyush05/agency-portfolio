@@ -44,7 +44,7 @@ const Sec1 = () => {
             <img
               src={b}
               alt=""
-              className="w-20 h-20 object-top   rounded-full  "
+              className="w-20 h-20 object-cover rounded-full  "
             />
             <motion.p
               className="font-semibold text-sm w-63"

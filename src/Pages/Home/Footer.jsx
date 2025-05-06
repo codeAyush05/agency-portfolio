@@ -32,7 +32,7 @@ const Footer = () => {
             © Copyright 2023 - Mil. All Rights Reserved.
           </p>
         </div>
-        <ul className="flex lg:text-3xl text-xl font-semibold flex-col gap-6">
+        <ul className="flex lg:text-3xl text-fixl font-semibold flex-col gap-6">
           <li className="hover:text-[#ff9800]  w-fit  cursor-pointer lg:hover:scale-200 duration-400">
             Home{" "}
           </li>
@@ -57,13 +57,13 @@ const Footer = () => {
           <li className="hover:text-white lg:hover:scale-110 duration-200">
             Privacy Policy
           </li>
-          <li className="hover:text-white hover:scale-110 duration-200">
+          <li className="hover:text-white lg:hover:scale-110 duration-200">
             Terms and Conditions{" "}
           </li>
-          <li className="hover:text-white hover:scale-110 duration-200">
+          <li className="hover:text-white lg:hover:scale-110 duration-200">
             Cookie Policy
           </li>
-          <li className="hover:text-white hover:scale-110 duration-200">
+          <li className="hover:text-white lg:hover:scale-110 duration-200">
             Careers
           </li>
           <li className="lg:pt-47 pt-8  text-white">Germany</li>
